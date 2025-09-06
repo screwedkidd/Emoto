@@ -5,4 +5,6 @@
     <color name="pastel_pink">#FFC5D4</color>
     <color name="milky_matcha">#DBE38D</color>
     <color name="tea_green">#698041</color>
+    <color name="light_gray">#E7E7E7</color>
+    <color name="dark_gray">#6C6C6C</color>
 </resources>
