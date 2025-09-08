@@ -2,33 +2,46 @@ package com.example.emoto.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.example.emoto.R
 
+val HelveticaNeue = FontFamily(
+    Font(R.font.helvetica_neue_light, FontWeight.Light),
+    Font(R.font.helvetica_neue_roman),
+    Font(R.font.helvetica_neue_bold, FontWeight.Bold)
+)
+
+val Rothek = FontFamily(
+    Font(R.font.rothek_bold)
+)
 // Set of Material typography styles to start with
 val Typography = Typography(
-    bodyLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        lineHeight = 24.sp,
-        letterSpacing = 0.5.sp
-    )
-    /* Other default text styles to override
+    headlineLarge = TextStyle(
+        fontFamily = Rothek,
+        fontWeight = FontWeight.Bold,
+        fontSize = 20.sp
+    ),
     titleLarge = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = HelveticaNeue,
+        fontWeight = FontWeight.Bold,
+        fontSize = 16.sp
+    ),
+    bodyLarge = TextStyle(
+        fontFamily = HelveticaNeue,
         fontWeight = FontWeight.Normal,
-        fontSize = 22.sp,
-        lineHeight = 28.sp,
-        letterSpacing = 0.sp
+        fontSize = 16.sp
+    ),
+    labelLarge = TextStyle(
+        fontFamily = HelveticaNeue,
+        fontWeight = FontWeight.Normal,
+        fontSize = 12.sp
     ),
     labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
-        letterSpacing = 0.5.sp
+        fontFamily = HelveticaNeue,
+        fontWeight = FontWeight.Light,
+        fontSize = 10.sp
     )
-    */
 )
