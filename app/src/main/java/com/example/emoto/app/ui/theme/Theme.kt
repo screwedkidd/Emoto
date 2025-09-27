@@ -1,4 +1,4 @@
-package com.example.emoto.ui.theme
+package com.example.emoto.app.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

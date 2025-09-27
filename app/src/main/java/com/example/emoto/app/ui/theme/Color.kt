@@ -1,4 +1,4 @@
-package com.example.emoto.ui.theme
+package com.example.emoto.app.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
