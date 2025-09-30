@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Emoto</string>
+    <string name="diary">Дневник</string>
+    <string name="goals">Цели</string>
+    <string name="medicine">Аптечка</string>
+    <string name="change_deadline">Истекла, необходимо изменить дедлайн</string>
+    <string name="expired">Истекла</string>
+    <string name="current">Текущие</string>
+    <string name="completed">Завершенные</string>
+    <string name="my_goals">Мои цели</string>
+    <string name="search">Поиск</string>
 </resources>
